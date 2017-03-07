@@ -1,0 +1,95 @@
+#bgImage{
+	width: 100%;
+	height: 350px;
+	background-size: cover;
+	background-image: url(Images/books2.jpg);
+	background-position: 0px -300px;
+	border-bottom-right-radius: 2%;
+	border-bottom-left-radius: 2%;
+}
+
+body{
+	font-family: 'Amiko';
+	background-color: white;
+	box-sizing: border-box;
+}
+
+.left, .right{
+	vertical-align: top;
+}
+.left {
+	width: 20%;
+	display: inline-block;
+	margin: 5%;
+}
+h4, h2, h3, ul, li{
+	color: darkgrey;
+}
+
+.right {
+	width: 50%;
+	display: inline-block;
+	margin: 5%;
+}
+main{
+	position: relative;
+}
+aside ul li:hover {
+	border-bottom: 3px solid black;
+}
+.anchors{
+	border-radius: 60%;
+	margin-top:-100px;
+	position:relative;
+	width:70%;
+
+}
+.google{
+	width: 100%;
+}
+.container{
+	width: 990px;
+	display: block;
+	margin: 0px auto;
+}
+
+.subscribe, .pane{
+    position: fixed;
+    top: 100%; left: 70%; bottom: 0; right: 0;
+    margin: auto;
+    width: 300px;
+    height: 250px;
+    padding:22px 32px;
+}
+
+.callback {
+  width:350px;
+  position:fixed;
+  bottom:10px;
+  right:10px;
+  border:2px solid darkgrey;
+  display: inline-block;
+ }
+
+ .callback.left, .callback .right, .callback .middle {
+  border:2px solid darkgrey;
+  vertical-align:top;
+  display:inline-block;
+}
+
+.callback .left {
+	width: 10%;
+}
+
+.callback .left img{
+	width: 100%;
+}
+
+.callback .right{
+	width:20%;
+}
+
+.callback .middle{
+	width: 40%;
+}
+
